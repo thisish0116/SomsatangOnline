@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/SomsatangOnline/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "SomsatanfOnline (Minecraft 1.21.4)",
+    "description": "SomsatanfOnline Running Minecraft 1.21.4",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "121.143.160.50:25565",
+    "discord": {
+      "shortId": "",
+      "largeImageText": "",
+      "largeImageKey": ""
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.17.3"
+  },
+  "untrackedFiles": []
+}
