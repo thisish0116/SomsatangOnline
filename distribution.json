@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "SomsatangOnline-1.21.4",
-      "name": "SomsatanfOnline (Minecraft 1.21.4)",
+      "name": "SomsatanOnline (Minecraft 1.21.4)",
       "description": "SomsatanfOnline Running Minecraft 1.21.4",
       "icon": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/main.png",
       "version": "1.0.0",
