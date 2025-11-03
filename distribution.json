@@ -185,19 +185,6 @@
           }
         },
         {
-          "id": "su.plo.voice:plasmovoice:2.1.6@jar",
-          "name": "Plasmo Voice",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 12217819,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/fabricmods/optionalon/plasmovoice-fabric-1.21.4-2.1.6.jar",
-            "MD5": "697c58299b7addd59f99ff5a1f873002"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
           "name": "Sodium",
           "type": "FabricMod",
