@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/SomsatangOnline/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "somsatangonline (Minecraft 1.21.4)",
+    "description": "somsatangonline Running Minecraft 1.21.4",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "somsatangonline2.kro.kr:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.17.3"
+  },
+  "untrackedFiles": []
+}
