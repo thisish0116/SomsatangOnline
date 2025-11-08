@@ -2,10 +2,10 @@
   "$schema": "file:///D:/SomsatangOnline/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "SomsatanfOnline (Minecraft 1.21.4)",
-    "description": "SomsatanfOnline Running Minecraft 1.21.4",
+    "name": "SomsatangOnline (Minecraft 1.21.4)",
+    "description": "SomsatangOnline Running Minecraft 1.21.4",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "somsatangonline2.kro.kr:25565",
+    "address": "129.154.55.180:25565",
     "discord": {
       "shortId": "",
       "largeImageText": "",

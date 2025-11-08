@@ -9,11 +9,11 @@
   "servers": [
     {
       "id": "SomsatangOnline-1.21.4",
-      "name": "SomsatanfOnline (Minecraft 1.21.4)",
-      "description": "SomsatanfOnline Running Minecraft 1.21.4",
+      "name": "SomsatangOnline (Minecraft 1.21.4)",
+      "description": "SomsatangOnline Running Minecraft 1.21.4",
       "icon": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/main.png",
       "version": "1.0.0",
-      "address": "somsatangonline2.kro.kr:25565",
+      "address": "129.154.55.180:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "",
