@@ -3049,9 +3049,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/htoolbar_begin.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/htoolbar_begin.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/htoolbar_begin.png"
+            "path": "journeymap/icon/theme/vaultflat/container/htoolbar_begin.png"
           }
         },
         {
@@ -3060,9 +3060,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/htoolbar_end.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/htoolbar_end.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/htoolbar_end.png"
+            "path": "journeymap/icon/theme/vaultflat/container/htoolbar_end.png"
           }
         },
         {
@@ -3071,9 +3071,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/htoolbar_inner.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/htoolbar_inner.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/htoolbar_inner.png"
+            "path": "journeymap/icon/theme/vaultflat/container/htoolbar_inner.png"
           }
         },
         {
@@ -3082,9 +3082,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/unkown.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/unkown.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/unkown.png"
+            "path": "journeymap/icon/theme/vaultflat/container/unkown.png"
           }
         },
         {
@@ -3093,9 +3093,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/vtoolbar_begin.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/vtoolbar_begin.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/vtoolbar_begin.png"
+            "path": "journeymap/icon/theme/vaultflat/container/vtoolbar_begin.png"
           }
         },
         {
@@ -3104,9 +3104,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/vtoolbar_end.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/vtoolbar_end.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/vtoolbar_end.png"
+            "path": "journeymap/icon/theme/vaultflat/container/vtoolbar_end.png"
           }
         },
         {
@@ -3115,9 +3115,9 @@
           "type": "File",
           "artifact": {
             "size": 1189,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/container/vtoolbar_inner.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/container/vtoolbar_inner.png",
             "MD5": "249cee57226fe7865363654bb607f596",
-            "path": "journeymap/icon/theme/vault_flat/container/vtoolbar_inner.png"
+            "path": "journeymap/icon/theme/vaultflat/container/vtoolbar_inner.png"
           }
         },
         {
@@ -3126,9 +3126,9 @@
           "type": "File",
           "artifact": {
             "size": 246,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_button_disabled.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_button_disabled.png",
             "MD5": "d0b60e2e7d6355467577b647219a95d3",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_button_disabled.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_button_disabled.png"
           }
         },
         {
@@ -3137,9 +3137,9 @@
           "type": "File",
           "artifact": {
             "size": 231,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_button_hover.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_button_hover.png",
             "MD5": "5ef7000ecd91e972a4b9cc277244a153",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_button_hover.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_button_hover.png"
           }
         },
         {
@@ -3148,9 +3148,9 @@
           "type": "File",
           "artifact": {
             "size": 246,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_button_off.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_button_off.png",
             "MD5": "960a18d54909628b6080b8b6ba45c70b",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_button_off.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_button_off.png"
           }
         },
         {
@@ -3159,9 +3159,9 @@
           "type": "File",
           "artifact": {
             "size": 221,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_button_on.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_button_on.png",
             "MD5": "ec0c6ffad1db3301546b1ae9bea17969",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_button_on.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_button_on.png"
           }
         },
         {
@@ -3170,9 +3170,9 @@
           "type": "File",
           "artifact": {
             "size": 246,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_toggle_disabled.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_toggle_disabled.png",
             "MD5": "d0b60e2e7d6355467577b647219a95d3",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_disabled.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_toggle_disabled.png"
           }
         },
         {
@@ -3181,9 +3181,9 @@
           "type": "File",
           "artifact": {
             "size": 231,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_toggle_hover.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_toggle_hover.png",
             "MD5": "9586613565eef1ca161762f7cc00d2ba",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_hover.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_toggle_hover.png"
           }
         },
         {
@@ -3192,9 +3192,9 @@
           "type": "File",
           "artifact": {
             "size": 246,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_toggle_off.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_toggle_off.png",
             "MD5": "960a18d54909628b6080b8b6ba45c70b",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_off.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_toggle_off.png"
           }
         },
         {
@@ -3203,9 +3203,9 @@
           "type": "File",
           "artifact": {
             "size": 221,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/control/flat_toggle_on.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/control/flat_toggle_on.png",
             "MD5": "ec0c6ffad1db3301546b1ae9bea17969",
-            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_on.png"
+            "path": "journeymap/icon/theme/vaultflat/control/flat_toggle_on.png"
           }
         },
         {
@@ -3214,9 +3214,9 @@
           "type": "File",
           "artifact": {
             "size": 651,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/about.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/about.png",
             "MD5": "51dd21a90b121e6ee54629d7aa06bbe0",
-            "path": "journeymap/icon/theme/vault_flat/icon/about.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/about.png"
           }
         },
         {
@@ -3225,9 +3225,9 @@
           "type": "File",
           "artifact": {
             "size": 1244,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/actions.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/actions.png",
             "MD5": "4b34cadc25f464e0bb26efc78fae7d15",
-            "path": "journeymap/icon/theme/vault_flat/icon/actions.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/actions.png"
           }
         },
         {
@@ -3236,9 +3236,9 @@
           "type": "File",
           "artifact": {
             "size": 818,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/alert.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/alert.png",
             "MD5": "4cef6ccb045d056ba860b1deec88bd0f",
-            "path": "journeymap/icon/theme/vault_flat/icon/alert.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/alert.png"
           }
         },
         {
@@ -3247,9 +3247,9 @@
           "type": "File",
           "artifact": {
             "size": 978,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/animals.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/animals.png",
             "MD5": "cfa7925fd87955daf2b38c11523fafed",
-            "path": "journeymap/icon/theme/vault_flat/icon/animals.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/animals.png"
           }
         },
         {
@@ -3258,9 +3258,9 @@
           "type": "File",
           "artifact": {
             "size": 1598,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/automap.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/automap.png",
             "MD5": "930540047230d5066e1795799b372b89",
-            "path": "journeymap/icon/theme/vault_flat/icon/automap.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/automap.png"
           }
         },
         {
@@ -3269,9 +3269,9 @@
           "type": "File",
           "artifact": {
             "size": 1029,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/biome.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/biome.png",
             "MD5": "c45a1223330ab9056f931ee1df6a5c3c",
-            "path": "journeymap/icon/theme/vault_flat/icon/biome.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/biome.png"
           }
         },
         {
@@ -3280,9 +3280,9 @@
           "type": "File",
           "artifact": {
             "size": 1694,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/browser.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/browser.png",
             "MD5": "55898ae51928c26ba420bd3716c64b72",
-            "path": "journeymap/icon/theme/vault_flat/icon/browser.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/browser.png"
           }
         },
         {
@@ -3291,9 +3291,9 @@
           "type": "File",
           "artifact": {
             "size": 939,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/caves.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/caves.png",
             "MD5": "51de7c137d2f11e2630101e84ea1b322",
-            "path": "journeymap/icon/theme/vault_flat/icon/caves.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/caves.png"
           }
         },
         {
@@ -3302,9 +3302,9 @@
           "type": "File",
           "artifact": {
             "size": 1021,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/close.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/close.png",
             "MD5": "b1079574082853abf4f80108a019a5f2",
-            "path": "journeymap/icon/theme/vault_flat/icon/close.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/close.png"
           }
         },
         {
@@ -3313,9 +3313,9 @@
           "type": "File",
           "artifact": {
             "size": 1174,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/colorpalette.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/colorpalette.png",
             "MD5": "4803d8daf382ae19134355929fff14c0",
-            "path": "journeymap/icon/theme/vault_flat/icon/colorpalette.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/colorpalette.png"
           }
         },
         {
@@ -3324,9 +3324,9 @@
           "type": "File",
           "artifact": {
             "size": 1151,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/day.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/day.png",
             "MD5": "6bb079e433e851db3b4da7e506f7152c",
-            "path": "journeymap/icon/theme/vault_flat/icon/day.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/day.png"
           }
         },
         {
@@ -3335,9 +3335,9 @@
           "type": "File",
           "artifact": {
             "size": 939,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/delete.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/delete.png",
             "MD5": "629d6824db2898ebc16a00ba14487552",
-            "path": "journeymap/icon/theme/vault_flat/icon/delete.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/delete.png"
           }
         },
         {
@@ -3346,9 +3346,9 @@
           "type": "File",
           "artifact": {
             "size": 833,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/disable.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/disable.png",
             "MD5": "73d4e93e1c708d3f20f3d14e24dfa001",
-            "path": "journeymap/icon/theme/vault_flat/icon/disable.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/disable.png"
           }
         },
         {
@@ -3357,9 +3357,9 @@
           "type": "File",
           "artifact": {
             "size": 1139,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/follow.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/follow.png",
             "MD5": "638d66388338cb398e3c4b5b7350dd09",
-            "path": "journeymap/icon/theme/vault_flat/icon/follow.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/follow.png"
           }
         },
         {
@@ -3368,9 +3368,9 @@
           "type": "File",
           "artifact": {
             "size": 664,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/grid.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/grid.png",
             "MD5": "55d3070ee3dcac458c1d1514a90e01a7",
-            "path": "journeymap/icon/theme/vault_flat/icon/grid.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/grid.png"
           }
         },
         {
@@ -3379,9 +3379,9 @@
           "type": "File",
           "artifact": {
             "size": 456,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/keys.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/keys.png",
             "MD5": "48438ebd8464da96a7d0ed12d041cebe",
-            "path": "journeymap/icon/theme/vault_flat/icon/keys.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/keys.png"
           }
         },
         {
@@ -3390,9 +3390,9 @@
           "type": "File",
           "artifact": {
             "size": 1194,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/layers.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/layers.png",
             "MD5": "985cd9b7a009fae6d35e8c5fcc07dd9e",
-            "path": "journeymap/icon/theme/vault_flat/icon/layers.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/layers.png"
           }
         },
         {
@@ -3401,9 +3401,9 @@
           "type": "File",
           "artifact": {
             "size": 1116,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/monsters.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/monsters.png",
             "MD5": "14e7ce0dd7c3e7cbca7c057f4d97a267",
-            "path": "journeymap/icon/theme/vault_flat/icon/monsters.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/monsters.png"
           }
         },
         {
@@ -3412,9 +3412,9 @@
           "type": "File",
           "artifact": {
             "size": 902,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/night.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/night.png",
             "MD5": "e734ca7a960bc49a32fa3e1ef0c075bb",
-            "path": "journeymap/icon/theme/vault_flat/icon/night.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/night.png"
           }
         },
         {
@@ -3423,9 +3423,9 @@
           "type": "File",
           "artifact": {
             "size": 569,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/options.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/options.png",
             "MD5": "8c101a06c4b6eaa68f2ab7e40a8a73a5",
-            "path": "journeymap/icon/theme/vault_flat/icon/options.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/options.png"
           }
         },
         {
@@ -3434,9 +3434,9 @@
           "type": "File",
           "artifact": {
             "size": 727,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/pets.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/pets.png",
             "MD5": "46ee14ca89c0fc121246547a1a87b2f3",
-            "path": "journeymap/icon/theme/vault_flat/icon/pets.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/pets.png"
           }
         },
         {
@@ -3445,9 +3445,9 @@
           "type": "File",
           "artifact": {
             "size": 1369,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/players.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/players.png",
             "MD5": "f0b63f2b603994b6d07a14d5e6d4f6c7",
-            "path": "journeymap/icon/theme/vault_flat/icon/players.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/players.png"
           }
         },
         {
@@ -3456,9 +3456,9 @@
           "type": "File",
           "artifact": {
             "size": 659,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/reset.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/reset.png",
             "MD5": "4027ef0ff444cab320978eb0a2974b7e",
-            "path": "journeymap/icon/theme/vault_flat/icon/reset.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/reset.png"
           }
         },
         {
@@ -3467,9 +3467,9 @@
           "type": "File",
           "artifact": {
             "size": 831,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/savemap.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/savemap.png",
             "MD5": "0d9582b0c2f410f8a13debc769af4594",
-            "path": "journeymap/icon/theme/vault_flat/icon/savemap.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/savemap.png"
           }
         },
         {
@@ -3478,9 +3478,9 @@
           "type": "File",
           "artifact": {
             "size": 1168,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/search.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/search.png",
             "MD5": "b30e5d3527eb483b344d47b11597b7df",
-            "path": "journeymap/icon/theme/vault_flat/icon/search.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/search.png"
           }
         },
         {
@@ -3489,9 +3489,9 @@
           "type": "File",
           "artifact": {
             "size": 3038,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/server.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/server.png",
             "MD5": "b934f10174be355e0414ccea904b019b",
-            "path": "journeymap/icon/theme/vault_flat/icon/server.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/server.png"
           }
         },
         {
@@ -3500,9 +3500,9 @@
           "type": "File",
           "artifact": {
             "size": 1330,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/topo.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/topo.png",
             "MD5": "ed12bd7bd28debaaf75d1af3a910a1c6",
-            "path": "journeymap/icon/theme/vault_flat/icon/topo.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/topo.png"
           }
         },
         {
@@ -3511,9 +3511,9 @@
           "type": "File",
           "artifact": {
             "size": 1272,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/villagers.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/villagers.png",
             "MD5": "bd3ef6aa006301204f9f09f3db761cfc",
-            "path": "journeymap/icon/theme/vault_flat/icon/villagers.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/villagers.png"
           }
         },
         {
@@ -3522,9 +3522,9 @@
           "type": "File",
           "artifact": {
             "size": 620,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/waypoints.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/waypoints.png",
             "MD5": "5b29da1764cec3a74ee7f0deba89db50",
-            "path": "journeymap/icon/theme/vault_flat/icon/waypoints.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/waypoints.png"
           }
         },
         {
@@ -3533,9 +3533,9 @@
           "type": "File",
           "artifact": {
             "size": 1155,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/zoomin.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/zoomin.png",
             "MD5": "be2d0cd05adf64b6147d27b1a27f06ae",
-            "path": "journeymap/icon/theme/vault_flat/icon/zoomin.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/zoomin.png"
           }
         },
         {
@@ -3544,9 +3544,9 @@
           "type": "File",
           "artifact": {
             "size": 1090,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/icon/zoomout.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/icon/zoomout.png",
             "MD5": "dd4e8a25f35d1265543b924d01188e40",
-            "path": "journeymap/icon/theme/vault_flat/icon/zoomout.png"
+            "path": "journeymap/icon/theme/vaultflat/icon/zoomout.png"
           }
         },
         {
@@ -3555,9 +3555,9 @@
           "type": "File",
           "artifact": {
             "size": 214,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_bottom.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_bottom.png",
             "MD5": "e44666a1a7caddce99263b40096aac22",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_bottom.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_bottom.png"
           }
         },
         {
@@ -3566,9 +3566,9 @@
           "type": "File",
           "artifact": {
             "size": 18970,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_bottomleft.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_bottomleft.png",
             "MD5": "91112dc5925f2697f60156fb6a8187fa",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_bottomleft.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_bottomleft.png"
           }
         },
         {
@@ -3577,9 +3577,9 @@
           "type": "File",
           "artifact": {
             "size": 10832,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_bottomright.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_bottomright.png",
             "MD5": "2df051aedbbfa8b2098a9e790c4243e1",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_bottomright.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_bottomright.png"
           }
         },
         {
@@ -3588,9 +3588,9 @@
           "type": "File",
           "artifact": {
             "size": 289,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_compass_point.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_compass_point.png",
             "MD5": "7a9b67a06745f38b56cc8f25d59542a7",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_compass_point.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_compass_point.png"
           }
         },
         {
@@ -3599,9 +3599,9 @@
           "type": "File",
           "artifact": {
             "size": 246,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_left.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_left.png",
             "MD5": "d5f4e77f1d001a4a4a2d373dbaf8e296",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_left.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_left.png"
           }
         },
         {
@@ -3610,9 +3610,9 @@
           "type": "File",
           "artifact": {
             "size": 224,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_right.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_right.png",
             "MD5": "7d14e4d66551a78a9d79116bbf6aec93",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_right.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_right.png"
           }
         },
         {
@@ -3621,9 +3621,9 @@
           "type": "File",
           "artifact": {
             "size": 228,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_top.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_top.png",
             "MD5": "7bec791f17afff61649d1a33ddc3ab62",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_top.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_top.png"
           }
         },
         {
@@ -3632,9 +3632,9 @@
           "type": "File",
           "artifact": {
             "size": 10437,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_topleft.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_topleft.png",
             "MD5": "8928cae497b28d525eee74781eb2f6ca",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_topleft.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_topleft.png"
           }
         },
         {
@@ -3643,9 +3643,9 @@
           "type": "File",
           "artifact": {
             "size": 10851,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/flat_topright.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/flat_topright.png",
             "MD5": "371bfa8ef063f4ec88f3f301214e8d6f",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_topright.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/flat_topright.png"
           }
         },
         {
@@ -3654,9 +3654,9 @@
           "type": "File",
           "artifact": {
             "size": 164,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/minimap/square/pur_bottom.png",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/minimap/square/pur_bottom.png",
             "MD5": "7ebab006d87fcbc1da28990b3f923989",
-            "path": "journeymap/icon/theme/vault_flat/minimap/square/pur_bottom.png"
+            "path": "journeymap/icon/theme/vaultflat/minimap/square/pur_bottom.png"
           }
         },
         {
@@ -3665,9 +3665,9 @@
           "type": "File",
           "artifact": {
             "size": 6203,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vault_flat/vault.theme2.json",
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-1.21.4/files/journeymap/icon/theme/vaultflat/vault.theme2.json",
             "MD5": "fe629b672f95ecb0146ddff234015f8f",
-            "path": "journeymap/icon/theme/vault_flat/vault.theme2.json"
+            "path": "journeymap/icon/theme/vaultflat/vault.theme2.json"
           }
         },
         {
