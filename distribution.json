@@ -305,17 +305,6 @@
           }
         },
         {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 5283,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/options.txt",
-            "MD5": "6b988ef39749099bdeb624cfd6928955",
-            "path": "options.txt"
-          }
-        },
-        {
           "id": "ComplementaryUnbound_r5.5.1.zip.txt",
           "name": "ComplementaryUnbound_r5.5.1.zip.txt",
           "type": "File",
