@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1425933275691487384",
+    "smallImageText": "솜사탕 온라인",
+    "smallImageKey": "somsatang"
   },
   "servers": [
     {
@@ -16,9 +16,9 @@
       "address": "somsatangonline2.kro.kr:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Somsatang Online",
+        "largeImageText": "솜사탕 온라인",
+        "largeImageKey": "main"
       },
       "mainServer": true,
       "autoconnect": true,
