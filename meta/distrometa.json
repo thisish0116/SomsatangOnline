@@ -3,9 +3,9 @@
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
-      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "clientId": "1425933275691487384",
+      "smallImageText": "솜사탕 온라인",
+      "smallImageKey": "somsatang"
     }
   }
 }

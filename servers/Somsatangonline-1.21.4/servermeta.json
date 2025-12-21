@@ -7,9 +7,9 @@
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "somsatangonline2.kro.kr:25565",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Somsatang Online",
+      "largeImageText": "솜사탕 온라인",
+      "largeImageKey": "main"
     },
     "mainServer": true,
     "autoconnect": true
