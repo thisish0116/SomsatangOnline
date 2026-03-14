@@ -305,6 +305,28 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5320,
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/options.txt",
+            "MD5": "a14375d1e9a5c05aea64ffbaa7dbe14f",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "SomsatangOnline.zip",
+          "name": "SomsatangOnline.zip",
+          "type": "File",
+          "artifact": {
+            "size": 61351474,
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/resourcepacks/SomsatangOnline.zip",
+            "MD5": "c0f40c21da2186f8811a56406c4dd8aa",
+            "path": "resourcepacks/SomsatangOnline.zip"
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.5.1.zip.txt",
           "name": "ComplementaryUnbound_r5.5.1.zip.txt",
           "type": "File",
