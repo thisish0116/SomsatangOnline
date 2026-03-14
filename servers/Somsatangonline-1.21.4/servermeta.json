@@ -5,7 +5,7 @@
     "name": "somsatangonline (Minecraft 1.21.4)",
     "description": "somsatangonline Running Minecraft 1.21.4",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "somsatangonline2.kro.kr:25565",
+    "address": "somsatangonline.kro.kr:25565",
     "discord": {
       "shortId": "Somsatang Online",
       "largeImageText": "솜사탕 온라인",
