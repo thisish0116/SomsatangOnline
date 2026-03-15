@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://somsatangonline.kro.kr/rss.xml",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1425933275691487384",
     "smallImageText": "솜사탕 온라인",
@@ -13,7 +13,7 @@
       "description": "somsatangonline Running Minecraft 1.21.4",
       "icon": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/Icon.png",
       "version": "1.0.0",
-      "address": "somsatangonline.kro.kr:25565",
+      "address": "somsatangonline2.kro.kr:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "Somsatang Online",
