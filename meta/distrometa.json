@@ -1,7 +1,7 @@
 {
   "$schema": "file:///D:/SomsatangOnline/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://rsshub.app/discord/channel/1396173835203776613/1401109467591868528",
     "discord": {
       "clientId": "1425933275691487384",
       "smallImageText": "솜사탕 온라인",
