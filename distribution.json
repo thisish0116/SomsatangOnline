@@ -13,7 +13,7 @@
       "description": "somsatangonline Running Minecraft 1.21.4",
       "icon": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/Icon.png",
       "version": "1.0.0",
-      "address": "somsatangonline2.kro.kr:25565",
+      "address": "somsatangonline.kro.kr:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "Somsatang Online",
