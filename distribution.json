@@ -13,7 +13,7 @@
       "description": "somsatangonline Running Minecraft 1.21.4",
       "icon": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/Icon.png",
       "version": "1.0.0",
-      "address": "somsatangonline.kro.kr:25565",
+      "address": "somsatangonline2.kro.kr:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "Somsatang Online",
@@ -311,7 +311,6 @@
           "artifact": {
             "size": 5320,
             "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/options.txt",
-            "MD5": "a14375d1e9a5c05aea64ffbaa7dbe14f",
             "path": "options.txt"
           }
         },
