@@ -26,6 +26,7 @@ renderClouds:"true"
 renderDistance:32
 simulationDistance:32
 screenEffectScale:1.0
+soundDevice:""
 autoJump:false
 rotateWithMinecart:false
 operatorItemsTab:true
@@ -101,7 +102,7 @@ key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
-key_key.pickItem:key.mouse.center
+key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
@@ -110,7 +111,7 @@ key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.saveToolbarActivator:key.keyboard.c
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
@@ -134,15 +135,15 @@ key_key.journeymap.toggle_render_waypoints_world:key.keyboard.unknown
 key_key.journeymap.toggle_render_waypoints_map:key.keyboard.unknown
 key_key.journeymap.toggle_waypoints:key.keyboard.unknown
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.unknown
-key_key.journeymap.fullscreen_chat_position:key.keyboard.c
+key_key.journeymap.fullscreen_chat_position:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.j
 key_key.journeymap.fullscreen_waypoints:key.keyboard.n
 key_key.journeymap.minimap_toggle_alt:key.keyboard.m
-key_key.journeymap.fullscreen_options:key.keyboard.o
-key_key.journeymap.fullscreen.north:key.keyboard.up
-key_key.journeymap.fullscreen.south:key.keyboard.down
-key_key.journeymap.fullscreen.east:key.keyboard.right
-key_key.journeymap.fullscreen.west:key.keyboard.left
+key_key.journeymap.fullscreen_options:key.keyboard.unknown
+key_key.journeymap.fullscreen.north:key.keyboard.unknown
+key_key.journeymap.fullscreen.south:key.keyboard.unknown
+key_key.journeymap.fullscreen.east:key.keyboard.unknown
+key_key.journeymap.fullscreen.west:key.keyboard.unknown
 key_key.journeymap.fullscreen_follow_player:key.keyboard.unknown
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_key.journeymap.toggle_entity_names:key.keyboard.g
@@ -153,7 +154,7 @@ key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
