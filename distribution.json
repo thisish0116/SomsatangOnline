@@ -13,7 +13,7 @@
       "description": "somsatangonline Running Minecraft 1.21.4",
       "icon": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/Icon.png",
       "version": "1.0.0",
-      "address": "somsatangonline.kro.kr:25565",
+      "address": "somsatangonline2.kro.kr:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "Somsatang Online",
@@ -305,11 +305,22 @@
           }
         },
         {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 2688,
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/journeymap/config/6.0/journeymap.core.config",
+            "MD5": "aee0ddd4ea037aeac2244295e2e10db4",
+            "path": "journeymap/config/6.0/journeymap.core.config"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5320,
+            "size": 5357,
             "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/options.txt",
             "path": "options.txt"
           }
@@ -319,10 +330,21 @@
           "name": "SomsatangOnline.zip",
           "type": "File",
           "artifact": {
-            "size": 61351474,
+            "size": 62223858,
             "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/resourcepacks/SomsatangOnline.zip",
-            "MD5": "c0f40c21da2186f8811a56406c4dd8aa",
+            "MD5": "710a89af061bdbe9cef9eb5630817f42",
             "path": "resourcepacks/SomsatangOnline.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 5528,
+            "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/servers.dat",
+            "MD5": "629c9a2446a201e90be154af637f062d",
+            "path": "servers.dat"
           }
         },
         {
