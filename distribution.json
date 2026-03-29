@@ -320,7 +320,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5357,
+            "size": 5355,
             "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/options.txt",
             "path": "options.txt"
           }
@@ -330,9 +330,9 @@
           "name": "SomsatangOnline.zip",
           "type": "File",
           "artifact": {
-            "size": 62223858,
+            "size": 63457794,
             "url": "https://thisish0116.github.io/SomsatangOnline/servers/Somsatangonline-1.21.4/files/resourcepacks/SomsatangOnline.zip",
-            "MD5": "710a89af061bdbe9cef9eb5630817f42",
+            "MD5": "fab893cc827e519c0638e8c3b2b487e6",
             "path": "resourcepacks/SomsatangOnline.zip"
           }
         },
