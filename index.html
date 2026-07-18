@@ -19,7 +19,7 @@
 <meta name="ext-resource-dependency" content="assets/game/skill-boss.png">
 <meta name="ext-resource-dependency" content="assets/game/quest.png">
 <meta name="ext-resource-dependency" content="assets/game/village-night.png">
-<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><rect width="400" height="280" fill="#FFEAF2"/><circle cx="130" cy="120" r="55" fill="#fff"/><circle cx="260" cy="150" r="70" fill="#FFD3E4"/><text x="200" y="150" font-size="48" text-anchor="middle" font-family="sans-serif">🍬</text></svg></template>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><rect width="400" height="280" fill="#FFEAF2"></rect><circle cx="130" cy="120" r="55" fill="#fff"></circle><circle cx="260" cy="150" r="70" fill="#FFD3E4"></circle><text x="200" y="150" font-size="48" text-anchor="middle" font-family="sans-serif">🍬</text></svg></template>
 <helmet>
   <link rel="stylesheet" href="_ds/somsatang-online-design-system-20ac9a88-8355-4712-a967-c1fd865583e0/tokens/colors.css">
   <link rel="stylesheet" href="_ds/somsatang-online-design-system-20ac9a88-8355-4712-a967-c1fd865583e0/tokens/typography.css">
@@ -36,7 +36,7 @@
   </style>
 </helmet>
 
-<div style="background:var(--surface-page); overflow-x:hidden; position:relative;">
+<div style="{{ rootStyle }}">
 
   <!-- NAV -->
   <div style="position:sticky; top:0; z-index:50; display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); padding:var(--space-3) var(--space-8); background:rgba(255,253,248,0.9); backdrop-filter:blur(6px); border-bottom:3px solid var(--outline-toon);">
@@ -67,8 +67,8 @@
         <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="blue">1.21.4 ~ 최신 지원</x-import>
         <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="pink">자바 에디션</x-import>
       </div>
-      <h1 style="font-family:var(--font-display); font-size:var(--text-4xl); line-height:var(--leading-tight); color:var(--pink-600); margin:0; text-shadow:2px 2px 0 var(--outline-toon);">솜사탕처럼<br>달콤한 서버,<br>솜사탕 온라인</h1>
-      <p style="font-size:var(--text-md); line-height:var(--leading-normal); color:var(--text-muted); margin:0;">경제·성장·모험이 가득한 마인크래프트 서버예요. 지금 접속해서 나만의 마을을 꾸리고, 던전을 정복하고, 친구들과 함께해요!</p>
+      <h1 style="font-family:var(--font-display); font-size:var(--text-4xl); line-height:var(--leading-tight); color:var(--pink-600); margin:0; text-shadow:2px 2px 0 var(--outline-toon); white-space:pre-line;">{{ heroTitle }}</h1>
+      <p style="font-size:var(--text-md); line-height:var(--leading-normal); color:var(--text-muted); margin:0;">{{ heroDesc }}</p>
       <div style="display:flex; gap:var(--space-4); flex-wrap:wrap; align-items:center;">
         <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Button" hint-size="200px,52px" variant="primary" size="lg" onClick="{{ copyIp }}">{{ copyLabel }}</x-import>
         <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Button" hint-size="160px,52px" variant="secondary" size="lg" onClick="{{ openDiscord }}">디스코드 참여</x-import>
@@ -78,7 +78,7 @@
 
     <div style="position:relative; z-index:1; flex:1 1 380px; max-width:520px;">
       <div style="border-radius:var(--radius-lg); overflow:hidden; border:var(--outline-width) solid var(--outline-toon); box-shadow:var(--shadow-md); animation:ss-float 5s ease-in-out infinite;">
-        <img src="assets/game/spawn.png" alt="솜사탕 온라인 스폰 성" style="width:100%; display:block;">
+        <img src="{{ bannerImage }}" alt="솜사탕 온라인 스폰 성" style="width:100%; display:block;">
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@
     <div style="text-align:center; margin-bottom:var(--space-12);">
       <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="green">GAME CONTENTS</x-import>
       <h2 style="font-family:var(--font-display); font-size:var(--text-3xl); color:var(--ink-900); margin:var(--space-3) 0 var(--space-2);">수많은 컨텐츠가 기다리고 있어요</h2>
-      <p style="color:var(--text-muted); font-size:var(--text-md); margin:0;">건설부터 던전까지, 솜사탕 온라인만의 특별한 시스템 12가지</p>
+      <p style="color:var(--text-muted); font-size:var(--text-md); margin:0;">건축부터 던전까지, 솜사탕 온라인만의 특별한 시스템 12가지</p>
     </div>
     <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:var(--space-5);">
       <sc-for list="{{ features }}" as="f" hint-placeholder-count="12">
@@ -118,9 +118,7 @@
       <sc-for list="{{ tiers }}" as="t" hint-placeholder-count="3">
         <div style-hover="{{ tierHoverStyle }}" style="flex:1 1 280px; max-width:320px; background:var(--surface-card); border-radius:var(--radius-lg); border:3px solid {{ t.color }}; box-shadow:var(--shadow-md); padding:var(--space-6); display:flex; flex-direction:column; gap:var(--space-4); position:relative; transition:transform .18s ease, box-shadow .18s ease;">
           <sc-if value="{{ t.popular }}" hint-placeholder-val="{{ false }}">
-            <div style="position:absolute; top:-16px; right:20px;">
-              <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="yellow">인기</x-import>
-            </div>
+            
           </sc-if>
           <div style="font-size:32px;">{{ t.emoji }}</div>
           <div style="font-family:var(--font-display); font-size:var(--text-xl); color:{{ t.color }};">{{ t.name }}</div>
@@ -137,20 +135,32 @@
       </sc-for>
     </div>
 
-    <div style="max-width:900px; margin:var(--space-16) auto 0; text-align:center;">
+    <p style="text-align:center; font-size:var(--text-xs); color:var(--text-muted); margin:var(--space-6) 0 0;">등급은 4주간 적용 후 해지됩니다.</p>
+
+    <div style="max-width:900px; margin:var(--space-8) auto 0; text-align:center;">
       <h3 style="font-family:var(--font-display); font-size:var(--text-xl); color:var(--ink-900); margin:0 0 var(--space-2);">후원 코인 개별 구매</h3>
       <p style="color:var(--text-muted); font-size:var(--text-sm); margin:0 0 var(--space-5);">후원 상점에서 치장 아이템과 교환할 수 있는 코인을 원하는 만큼 구매하세요.</p>
       <div style="display:flex; gap:var(--space-4); justify-content:center; flex-wrap:wrap;">
-        <sc-for list="{{ coinPacks }}" as="c" hint-placeholder-count="3">
-          <div style="background:var(--surface-card); border:2px solid var(--border-default); border-radius:var(--radius-md); padding:var(--space-4) var(--space-6); text-align:center; min-width:150px;">
-            <div style="font-size:26px;">🪙</div>
-            <div style="font-weight:var(--weight-bold); color:var(--ink-900); margin:var(--space-1) 0;">{{ c.amount }}</div>
-            <div style="color:var(--text-muted); font-size:var(--text-sm);">{{ c.price }}</div>
-          </div>
-        </sc-for>
+        <div style="background:var(--surface-card); border:2px solid var(--border-default); border-radius:var(--radius-md); padding:var(--space-4) var(--space-6); text-align:center; min-width:150px;">
+          <img src="assets/game/supporter-coin.png" alt="후원 코인" style="width:40px; height:40px; margin:0 auto;">
+          <div style="font-weight:var(--weight-bold); color:var(--ink-900); margin:var(--space-1) 0;">8 코인</div>
+          <div style="color:var(--text-muted); font-size:var(--text-sm);">3,000원</div>
+        </div>
+        <div style="background:var(--surface-card); border:2px solid var(--border-default); border-radius:var(--radius-md); padding:var(--space-4) var(--space-6); text-align:center; min-width:150px;">
+          <img src="assets/game/supporter-coin.png" alt="후원 코인" style="width:40px; height:40px; margin:0 auto;">
+          <div style="font-weight:var(--weight-bold); color:var(--ink-900); margin:var(--space-1) 0;">32 코인</div>
+          <div style="color:var(--text-muted); font-size:var(--text-sm);">10,000원</div>
+        </div>
+        <div style="background:var(--surface-card); border:2px solid var(--border-default); border-radius:var(--radius-md); padding:var(--space-4) var(--space-6); text-align:center; min-width:150px;">
+          <img src="assets/game/supporter-coin.png" alt="후원 코인" style="width:40px; height:40px; margin:0 auto;">
+          <div style="font-weight:var(--weight-bold); color:var(--ink-900); margin:var(--space-1) 0;">64 코인</div>
+          <div style="color:var(--text-muted); font-size:var(--text-sm);">18,000원</div>
+        </div>
       </div>
     </div>
-  </div>
+  <div style="position: absolute; top: 235px; left: 390px">
+              <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="yellow">인기</x-import>
+            </div></div>
 
   <!-- NOTICE -->
   <div id="notice" data-screen-label="공지 사항" style="{{ revealStyle_notice }}">
@@ -163,13 +173,13 @@
     <div style="display:grid; grid-template-columns:1.4fr 1fr; gap:var(--space-8); align-items:start;">
       <div style="display:flex; flex-direction:column; gap:var(--space-3);">
         <sc-for list="{{ notices }}" as="n" hint-placeholder-count="5">
-          <div style="background:var(--surface-card); border:2px solid var(--border-default); border-left:6px solid {{ n.color }}; border-radius:var(--radius-md); padding:var(--space-4); box-shadow:var(--shadow-sm); display:flex; flex-direction:column; gap:var(--space-1);">
+          <a href="{{ n.link }}" target="_blank" rel="noopener" style="text-decoration:none; background:var(--surface-card); border:2px solid var(--border-default); border-left:6px solid {{ n.color }}; border-radius:var(--radius-md); padding:var(--space-4); box-shadow:var(--shadow-sm); display:flex; flex-direction:column; gap:var(--space-1);">
             <div style="display:flex; align-items:center; gap:var(--space-2);">
               <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,20px" color="{{ n.badgeColor }}">{{ n.category }}</x-import>
               <span style="font-size:var(--text-xs); color:var(--text-muted);">{{ n.date }}</span>
             </div>
             <div style="font-weight:var(--weight-bold); color:var(--ink-900); font-size:var(--text-base);">{{ n.title }}</div>
-          </div>
+          </a>
         </sc-for>
         <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Button" hint-size="220px,44px" variant="secondary" onClick="{{ openDiscord }}">디스코드에서 전체 공지 보기</x-import>
       </div>
@@ -202,14 +212,14 @@
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script>
+<script type="text/x-dc" data-dc-script data-props="{&quot;primaryColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#f3bef1&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;bgColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#fff8f0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;buttonColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#fbd0d0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;cardRadius&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:10,&quot;min&quot;:0,&quot;max&quot;:40,&quot;step&quot;:2,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;shadowIntensity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:15,&quot;min&quot;:0,&quot;max&quot;:60,&quot;step&quot;:5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;fontScale&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:95,&quot;min&quot;:80,&quot;max&quot;:130,&quot;step&quot;:5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;bannerImage&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;assets/game/spawn.png&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;heroTitle&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;솜사탕처럼\n달콤한 서버,\n솜사탕 온라인&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;heroDesc&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;경제·성장·모험이 가득한 마인크래프트 서버예요. 지금 접속해서 나만의 마을을 꾸리고, 던전을 정복하고, 친구들과 함께해요!&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;}}">
 class Component extends DCLogic {
-  state = { copied: false, revealed: {} };
+  state = { copied: false, revealed: {}, notices: null };
 
   features = [
     { emoji:"🧱", title:"개인 건설 차단", desc:"내 땅은 안전하게! 원치 않는 건설과 파괴를 막아주는 개인 보호 시스템.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/build-protect.png", url:"https://roan-lark-42e.notion.site/28be0447afaa801b82a5f10b8a252ba4" },
-    { emoji:"🪙", title:"경제 · 상점 시스템", desc:"사냥하고, 채집하고, 거래하며 나만의 부를 쌓아보세요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/shop.png", url:"https://somsatangonline.kro.kr" },
-    { emoji:"📱", title:"개인 핸드폰 메뉴", desc:"인벤토리부터 상점까지, 손안의 핸드폰 하나로 편하게.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/phone-menu.png", url:"https://somsatangonline.kro.kr" },
+    { emoji:"🪙", title:"경제 · 상점 시스템", desc:"사냥하고, 채집하고, 거래하며 나만의 부를 쌓아보세요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/shop.png", url:"https://app.notion.com/p/23be0447afaa80cb9dabc015aa72748f?v=23be0447afaa80d982bc000c2d929108&assetsVersion=23.13.20260718.0104&clientBuildTarget=client" },
+    { emoji:"📱", title:"개인 핸드폰 메뉴", desc:"인벤토리부터 상점까지, 손안의 핸드폰 하나로 편하게.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/phone-menu.png", url:"https://app.notion.com/p/23be0447afaa80cb9dabc015aa72748f?v=23be0447afaa80d982bc000c2d929108&assetsVersion=23.13.20260718.0104&clientBuildTarget=client" },
     { emoji:"⚒️", title:"장비 강화 시스템", desc:"장비를 강화해서 나만의 최강 아이템을 만들어보세요.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/upgrade.png", url:"https://roan-lark-42e.notion.site/2ace0447afaa8076ae06d9319843e262" },
     { emoji:"✨", title:"특수 인챈트 시스템", desc:"이 서버에서만 만날 수 있는 특별한 인챈트가 가득해요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/enchant.png", url:"https://roan-lark-42e.notion.site/2afe0447afaa808d8b67f7d75c7c5776" },
     { emoji:"🌾", title:"특수 농작물 시스템", desc:"희귀한 작물을 키우고 수확하는 재미를 느껴보세요.", bg:"var(--green-100)", imgDisplay:"block", imgSrc:"assets/game/crop2.png", url:"https://roan-lark-42e.notion.site/28be0447afaa80f9bc2bcd190c8b84cd" },
@@ -217,17 +227,17 @@ class Component extends DCLogic {
     { emoji:"🍳", title:"요리 시스템", desc:"재료를 모아 나만의 요리를 만들고 버프 효과를 받아보세요.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/kitchen.png", url:"https://roan-lark-42e.notion.site/23be0447afaa802a86acdd4994607fa7" },
     { emoji:"🐉", title:"던전 시스템", desc:"친구들과 함께 도전하는 야생 던전 컨텐츠.\n나만의 개별 보상까지!", bg:"var(--green-100)", imgDisplay:"block", imgSrc:"assets/game/wild-dungeon.png", url:"https://roan-lark-42e.notion.site/345e0447afaa80168acbc2bfaf89459e" },
     { emoji:"🎯", title:"스킬 시스템", desc:"나만의 플레이 스타일에 맞는 스킬을 익히고 성장해요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/skill-boss.png", url:"https://roan-lark-42e.notion.site/RPG-28be0447afaa80209d0efedd388a1628" },
-    { emoji:"📜", title:"퀘스트 시스템", desc:"다양한 퀘스트를 따라가며 서버 곳곳을 탐험해보세요.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/quest.png", url:"https://somsatangonline.kro.kr" },
+    { emoji:"📜", title:"퀘스트 시스템", desc:"다양한 퀘스트를 따라가며 서버 곳곳을 탐험해보세요.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/quest.png", url:"https://app.notion.com/p/23be0447afaa80cb9dabc015aa72748f?v=23be0447afaa80d982bc000c2d929108&assetsVersion=23.13.20260718.0104&clientBuildTarget=client" },
     { emoji:"🏘️", title:"마을 시스템", desc:"친구들과 함께 나만의 마을을 세우고 꾸며보세요.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/village-night.png", url:"https://roan-lark-42e.notion.site/28be0447afaa8080a849eec72b88f5d9" },
   ];
 
   tiers = [
     { emoji:"🍭", name:"솜사탕 후원", price:"5,000원", color:"var(--pink-400)", popular:false, btnStyle:{},
-      perks:["전용 칭호 지급","후원 코인 500개","치장 아이템 1종"] },
+      perks:["전용 칭호 지급","매일 후원 코인 1개","치장 아이템 1종","커스텀 닉네임 적용"] },
     { emoji:"🧁", name:"마카롱 후원", price:"15,000원", color:"var(--blue-400)", popular:true, btnStyle:{ background:"var(--brand-secondary)" },
-      perks:["전용 칭호 지급","닉네임 컬러 적용","후원 코인 1,800개","치장 아이템 3종","인벤토리 세이브"] },
+      perks:["전용 칭호 지급","컬러 닉네임 적용","매일 후원 코인 2개","치장 아이템 3종","인벤토리 세이브"] },
     { emoji:"🌈", name:"레인보우 후원", price:"30,000원", color:"var(--yellow-500)", popular:false, btnStyle:{ background:"var(--yellow-400)", color:"var(--ink-900)" },
-      perks:["전용 칭호 지급","닉네임 컬러 적용","후원 코인 4,000개","치장 아이템 전체 지급","인벤토리 세이브","우선 서포트"] },
+      perks:["전용 칭호 지급","컬러 닉네임 적용","매일 후원 코인 3개","치장 아이템 5종","인벤토리 세이브","신규 기능 QA 기능"] },
   ];
 
   coinPacks = [
@@ -237,11 +247,11 @@ class Component extends DCLogic {
   ];
 
   notices = [
-    { category:"업데이트", badgeColor:"blue", color:"var(--blue-400)", date:"2026.07.15", title:"장비 강화 시스템 밸런스 패치 안내" },
-    { category:"이벤트", badgeColor:"pink", color:"var(--pink-400)", date:"2026.07.10", title:"여름맞이 특수 낚시 이벤트 오픈!" },
-    { category:"점검", badgeColor:"yellow", color:"var(--yellow-400)", date:"2026.07.08", title:"정기 서버 점검 완료 안내" },
-    { category:"업데이트", badgeColor:"green", color:"var(--green-400)", date:"2026.07.02", title:"신규 야생 던전 3종 추가" },
-    { category:"공지", badgeColor:"blue", color:"var(--blue-400)", date:"2026.06.28", title:"디스코드 연동 런처 업데이트 안내" },
+    { category:"패치노트", badgeColor:"blue", color:"var(--blue-400)", date:"2026.07.17", title:"📢 07.17 패치노트", link:"https://discord.com/channels/1396173835203776613/1401109467591868528/1527664819702988811" },
+    { category:"패치노트", badgeColor:"blue", color:"var(--blue-400)", date:"2026.06.07", title:"📢 06.07 패치노트", link:"https://discord.com/channels/1396173835203776613/1401109467591868528/1512987507657281618" },
+    { category:"패치노트", badgeColor:"blue", color:"var(--blue-400)", date:"2026.05.05", title:"📢 05.05 패치노트", link:"https://discord.com/channels/1396173835203776613/1401109467591868528/1501071432069939372" },
+    { category:"패치노트", badgeColor:"blue", color:"var(--blue-400)", date:"2026.05.01", title:"📢 05.01 패치노트", link:"https://discord.com/channels/1396173835203776613/1401109467591868528/1499572490710552667" },
+    { category:"패치노트", badgeColor:"blue", color:"var(--blue-400)", date:"2026.04.20", title:"📢 04.20 패치노트", link:"https://discord.com/channels/1396173835203776613/1401109467591868528/1495753751862972434" },
   ];
 
   rules = [
@@ -391,6 +401,38 @@ class Component extends DCLogic {
     };
   }
 
+  async loadRssNotices() {
+    try {
+      const res = await fetch("http://somsatangonline.kro.kr/rss.xml");
+      if (!res.ok) throw new Error("bad status");
+      const text = await res.text();
+      const doc = new DOMParser().parseFromString(text, "application/xml");
+      if (doc.querySelector("parsererror")) throw new Error("parse error");
+      const items = Array.from(doc.querySelectorAll("item")).slice(0, 5);
+      if (!items.length) throw new Error("no items");
+      const categoryOf = (title) => {
+        if (/패치|업데이트|추가|개선/.test(title)) return { category: "업데이트", badgeColor: "blue", color: "var(--blue-400)" };
+        if (/이벤트/.test(title)) return { category: "이벤트", badgeColor: "pink", color: "var(--pink-400)" };
+        if (/점검/.test(title)) return { category: "점검", badgeColor: "yellow", color: "var(--yellow-400)" };
+        return { category: "공지", badgeColor: "blue", color: "var(--blue-400)" };
+      };
+      const fmtDate = (pubDate) => {
+        const d = new Date(pubDate);
+        if (isNaN(d)) return "";
+        return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+      };
+      const notices = items.map((item) => {
+        const title = item.querySelector("title")?.textContent?.trim() ?? "공지";
+        const link = item.querySelector("link")?.textContent?.trim() ?? this.discordUrl;
+        const pubDate = item.querySelector("pubDate")?.textContent ?? "";
+        return { ...categoryOf(title), date: fmtDate(pubDate), title, link };
+      });
+      this.setState({ notices, noticesLoaded: true });
+    } catch (e) {
+      // CORS or network failure — keep static fallback notices
+    }
+  }
+
   reveal(id, extra) {
     const shown = !!this.state.revealed[id];
     return {
@@ -402,7 +444,23 @@ class Component extends DCLogic {
   }
 
   renderVals() {
+    const radius = (this.props.cardRadius ?? 20) + "px";
+    const shadowAlpha = (this.props.shadowIntensity ?? 20) / 100;
+    const fontScale = this.props.fontScale ?? 100;
+    const rootStyle = {
+      overflowX: "hidden",
+      position: "relative",
+      "--radius-lg": radius,
+      "--radius-md": `calc(${radius} * 0.7)`,
+      "--shadow-md": `0 10px 30px rgba(139,90,74,${shadowAlpha})`,
+      "--shadow-sm": `0 4px 12px rgba(139,90,74,${shadowAlpha * 0.7})`,
+      fontSize: `${fontScale}%`,
+    };
+    if (this.props.bgColor) { rootStyle.background = this.props.bgColor; rootStyle["--surface-page"] = this.props.bgColor; }
+    if (this.props.primaryColor) { rootStyle["--pink-600"] = this.props.primaryColor; rootStyle["--pink-500"] = this.props.primaryColor; }
+    if (this.props.buttonColor) { rootStyle["--brand-primary"] = this.props.buttonColor; }
     return {
+      rootStyle,
       copyLabel: this.state.copied ? "복사완료! ✅" : "서버 IP 복사",
       copyIp: () => {
         navigator.clipboard?.writeText("somsatangonline.kro.kr").catch(() => {});
@@ -414,14 +472,17 @@ class Component extends DCLogic {
       features: this.features,
       tiers: this.tiers,
       coinPacks: this.coinPacks,
-      notices: this.notices,
+      notices: this.state.notices ?? this.notices,
       rules: this.rules,
       revealStyle_contents: this.reveal("contents", { padding: "var(--space-20) var(--space-8)", maxWidth: "1240px", margin: "0 auto" }),
       revealStyle_sponsor: this.reveal("sponsor", { padding: "var(--space-20) var(--space-8)", background: "var(--surface-sunken)" }),
       revealStyle_notice: this.reveal("notice", { padding: "var(--space-20) var(--space-8)", maxWidth: "1140px", margin: "0 auto" }),
-      tierHoverStyle: { transform: "translateY(-8px)", boxShadow: "0 14px 28px rgba(139,90,74,0.22)" },
-      featureHoverStyle: { transform: "translateY(-6px)", boxShadow: "0 12px 24px rgba(139,90,74,0.2)" },
+      tierHoverStyle: { transform: "translateY(-8px)", boxShadow: `0 14px 28px rgba(139,90,74,${shadowAlpha})` },
+      featureHoverStyle: { transform: "translateY(-6px)", boxShadow: `0 12px 24px rgba(139,90,74,${shadowAlpha * 0.9})` },
       cloudCanvasRef: (el) => { this.cloudCanvasRef = el; },
+      heroTitle: this.props.heroTitle ?? "솜사탕처럼\n달콤한 서버,\n솜사탕 온라인",
+      heroDesc: this.props.heroDesc ?? "경제·성장·모험이 가득한 마인크래프트 서버예요. 지금 접속해서 나만의 마을을 꾸리고, 던전을 정복하고, 친구들과 함께해요!",
+      bannerImage: this.props.bannerImage ?? "assets/game/spawn.png",
     };
   }
 }
