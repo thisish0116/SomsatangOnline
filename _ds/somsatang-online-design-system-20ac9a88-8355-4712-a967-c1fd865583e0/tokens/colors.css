@@ -1,0 +1,20 @@
+:root{
+/* base palette — sampled from brand art (cotton candy, sky, rainbow, grass) */
+--pink-100:#FFEAF2;--pink-200:#FFD3E4;--pink-300:#FFB3D1;--pink-400:#FF8FBB;--pink-500:#F4699E;--pink-600:#D94C82;--pink-700:#A85A56;
+--blue-100:#EAF7FD;--blue-200:#CDEBFA;--blue-300:#9EDBF5;--blue-400:#67C3F0;--blue-500:#3BA4DC;--blue-600:#2E6FA8;--blue-700:#1F4E78;
+--yellow-100:#FFF7DC;--yellow-200:#FFEBA3;--yellow-300:#FFDD66;--yellow-400:#FFCB3D;--yellow-500:#F5B400;
+--green-100:#EAFAE4;--green-200:#C7F0BA;--green-300:#9FDB8E;--green-400:#7FBF6F;--green-500:#5FA85A;--green-600:#3F8A45;
+--cream-100:#FFFDF8;--cream-200:#FFF8EE;--cream-300:#FCEFDD;
+--brown-500:#8B5A4A;--brown-700:#5B3A2E;
+--white:#FFFFFF;--ink-900:#3A2E33;
+/* semantic aliases */
+--brand-primary:var(--pink-400);--brand-primary-hover:var(--pink-500);--brand-primary-active:var(--pink-600);
+--brand-secondary:var(--blue-400);--brand-secondary-hover:var(--blue-500);
+--brand-accent:var(--yellow-300);
+--brand-success:var(--green-500);
+--surface-page:var(--cream-100);--surface-card:var(--white);--surface-sunken:var(--cream-200);--surface-sky:linear-gradient(180deg,var(--blue-400) 0%,var(--blue-200) 100%);
+--text-body:var(--ink-900);--text-muted:#8A7A80;--text-on-brand:var(--white);--text-link:var(--blue-600);--text-link-hover:var(--blue-700);
+--border-default:var(--pink-200);--border-strong:var(--pink-700);--border-blue:var(--blue-500);
+--outline-toon:var(--brown-700);
+--focus-ring:var(--blue-400);
+}

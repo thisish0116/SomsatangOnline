@@ -1,0 +1,9 @@
+:root{
+--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-8:32px;--space-10:40px;--space-12:48px;--space-16:64px;--space-20:80px;
+--radius-sm:8px;--radius-md:14px;--radius-lg:22px;--radius-pill:999px;
+--shadow-sm:0 2px 6px rgba(139,90,74,0.12);
+--shadow-md:0 6px 16px rgba(139,90,74,0.16);
+--shadow-toon:0 4px 0 var(--outline-toon);
+--shadow-toon-sm:0 3px 0 var(--outline-toon);
+--outline-width:3px;
+}
