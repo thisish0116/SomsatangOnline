@@ -96,9 +96,9 @@
     <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:var(--space-5);">
       <sc-for list="{{ features }}" as="f" hint-placeholder-count="12">
         <a href="{{ f.url }}" target="_blank" rel="noopener" style-hover="{{ featureHoverStyle }}" style="text-decoration:none; cursor:pointer; transition:transform .15s ease, box-shadow .15s ease; background:var(--surface-card); border-radius:var(--radius-lg); border:2px solid var(--border-default); box-shadow:var(--shadow-sm); overflow:hidden; display:flex; flex-direction:column;">
-          <div style="width:100%; aspect-ratio:16/10; overflow:hidden; border-bottom:2px solid var(--border-default); display:{{ f.imgDisplay }};">
-            
-          <img src="{{ f.imgSrc }}" alt="{{ f.title }}" style="object-fit: cover; display: block; width: 100%; height: 218px"></div>
+          <div style="width:100%; aspect-ratio:16/10; overflow:hidden; border-bottom:2px solid var(--border-default);">
+            <img src="{{ f.imgSrc }}" alt="{{ f.title }}" style="object-fit:cover; display:block; width:100%; height:218px;">
+          </div>
           <div style="padding:var(--space-5); display:flex; flex-direction:column; gap:var(--space-3);">
             <div style="width:48px; height:48px; border-radius:var(--radius-pill); background:{{ f.bg }}; display:flex; align-items:center; justify-content:center; font-size:24px; border:2px solid var(--outline-toon);">{{ f.emoji }}</div>
             <div style="font-weight:var(--weight-bold); font-size:var(--text-md); color:var(--ink-900);">{{ f.title }}</div>
@@ -207,19 +207,19 @@ class Component extends DCLogic {
   state = { copied: false, revealed: {} };
 
   features = [
-    { emoji:"🧱", title:"개인 건설 차단", desc:"내 땅은 안전하게! 원치 않는 건설과 파괴를 막아주는 개인 보호 시스템.", bg:"var(--pink-100)", img:"assets/game/build-protect.png", url:"https://roan-lark-42e.notion.site/28be0447afaa801b82a5f10b8a252ba4" },
-    { emoji:"🪙", title:"경제 · 상점 시스템", desc:"사냥하고, 채집하고, 거래하며 나만의 부를 쌓아보세요.", bg:"var(--yellow-100)", img:"assets/game/shop.png", url:"" },
-    { emoji:"📱", title:"개인 핸드폰 메뉴", desc:"인벤토리부터 상점까지, 손안의 핸드폰 하나로 편하게.", bg:"var(--blue-100)", img:"assets/game/phone-menu.png", url:"" },
-    { emoji:"⚒️", title:"장비 강화 시스템", desc:"장비를 강화해서 나만의 최강 아이템을 만들어보세요.", bg:"var(--pink-100)", img:"assets/game/upgrade.png", url:"https://roan-lark-42e.notion.site/2ace0447afaa8076ae06d9319843e262" },
-    { emoji:"✨", title:"특수 인챈트 시스템", desc:"이 서버에서만 만날 수 있는 특별한 인챈트가 가득해요.", bg:"var(--yellow-100)", img:"assets/game/enchant.png", url:"https://roan-lark-42e.notion.site/2afe0447afaa808d8b67f7d75c7c5776" },
-    { emoji:"🌾", title:"특수 농작물 시스템", desc:"희귀한 작물을 키우고 수확하는 재미를 느껴보세요.", bg:"var(--green-100)", img:"assets/game/crop2.png", url:"https://roan-lark-42e.notion.site/28be0447afaa80f9bc2bcd190c8b84cd" },
-    { emoji:"🎣", title:"특수 낚시 시스템", desc:"바다부터 강까지, 특별한 물고기와 보상을 낚아보세요.", bg:"var(--blue-100)", img:"assets/game/fishing.png", url:"https://roan-lark-42e.notion.site/28be0447afaa801181dbd1b724670648" },
-    { emoji:"🍳", title:"요리 시스템", desc:"재료를 모아 나만의 요리를 만들고 버프 효과를 받아보세요.", bg:"var(--pink-100)", img:"assets/game/kitchen.png", url:"https://roan-lark-42e.notion.site/23be0447afaa802a86acdd4994607fa7" },
-    { emoji:"🐉", title:"던전 시스템", desc:"친구들과 함께 도전하는 야생 던전 컨텐츠.\n나만의 개별 보상까지!", bg:"var(--green-100)", img:"assets/game/wild-dungeon.png", url:"https://roan-lark-42e.notion.site/345e0447afaa80168acbc2bfaf89459e" },
-    { emoji:"🎯", title:"스킬 시스템", desc:"나만의 플레이 스타일에 맞는 스킬을 익히고 성장해요.", bg:"var(--yellow-100)", img:"assets/game/skill-boss.png", url:"https://roan-lark-42e.notion.site/RPG-28be0447afaa80209d0efedd388a1628" },
-    { emoji:"📜", title:"퀘스트 시스템", desc:"다양한 퀘스트를 따라가며 서버 곳곳을 탐험해보세요.", bg:"var(--blue-100)", img:"assets/game/quest.png", url:"" },
-    { emoji:"🏘️", title:"마을 시스템", desc:"친구들과 함께 나만의 마을을 세우고 꾸며보세요.", bg:"var(--pink-100)", img:"assets/game/village-night.png", url:"https://roan-lark-42e.notion.site/28be0447afaa8080a849eec72b88f5d9" },
-  ].map(f => ({ ...f, imgDisplay: f.img ? "block" : "none", imgSrc: f.img || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBTAA7", url: f.url || "https://somsatangonline.kro.kr" }));
+    { emoji:"🧱", title:"개인 건설 차단", desc:"내 땅은 안전하게! 원치 않는 건설과 파괴를 막아주는 개인 보호 시스템.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/build-protect.png", url:"https://roan-lark-42e.notion.site/28be0447afaa801b82a5f10b8a252ba4" },
+    { emoji:"🪙", title:"경제 · 상점 시스템", desc:"사냥하고, 채집하고, 거래하며 나만의 부를 쌓아보세요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/shop.png", url:"https://somsatangonline.kro.kr" },
+    { emoji:"📱", title:"개인 핸드폰 메뉴", desc:"인벤토리부터 상점까지, 손안의 핸드폰 하나로 편하게.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/phone-menu.png", url:"https://somsatangonline.kro.kr" },
+    { emoji:"⚒️", title:"장비 강화 시스템", desc:"장비를 강화해서 나만의 최강 아이템을 만들어보세요.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/upgrade.png", url:"https://roan-lark-42e.notion.site/2ace0447afaa8076ae06d9319843e262" },
+    { emoji:"✨", title:"특수 인챈트 시스템", desc:"이 서버에서만 만날 수 있는 특별한 인챈트가 가득해요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/enchant.png", url:"https://roan-lark-42e.notion.site/2afe0447afaa808d8b67f7d75c7c5776" },
+    { emoji:"🌾", title:"특수 농작물 시스템", desc:"희귀한 작물을 키우고 수확하는 재미를 느껴보세요.", bg:"var(--green-100)", imgDisplay:"block", imgSrc:"assets/game/crop2.png", url:"https://roan-lark-42e.notion.site/28be0447afaa80f9bc2bcd190c8b84cd" },
+    { emoji:"🎣", title:"특수 낚시 시스템", desc:"바다부터 강까지, 특별한 물고기와 보상을 낚아보세요.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/fishing.png", url:"https://roan-lark-42e.notion.site/28be0447afaa801181dbd1b724670648" },
+    { emoji:"🍳", title:"요리 시스템", desc:"재료를 모아 나만의 요리를 만들고 버프 효과를 받아보세요.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/kitchen.png", url:"https://roan-lark-42e.notion.site/23be0447afaa802a86acdd4994607fa7" },
+    { emoji:"🐉", title:"던전 시스템", desc:"친구들과 함께 도전하는 야생 던전 컨텐츠.\n나만의 개별 보상까지!", bg:"var(--green-100)", imgDisplay:"block", imgSrc:"assets/game/wild-dungeon.png", url:"https://roan-lark-42e.notion.site/345e0447afaa80168acbc2bfaf89459e" },
+    { emoji:"🎯", title:"스킬 시스템", desc:"나만의 플레이 스타일에 맞는 스킬을 익히고 성장해요.", bg:"var(--yellow-100)", imgDisplay:"block", imgSrc:"assets/game/skill-boss.png", url:"https://roan-lark-42e.notion.site/RPG-28be0447afaa80209d0efedd388a1628" },
+    { emoji:"📜", title:"퀘스트 시스템", desc:"다양한 퀘스트를 따라가며 서버 곳곳을 탐험해보세요.", bg:"var(--blue-100)", imgDisplay:"block", imgSrc:"assets/game/quest.png", url:"https://somsatangonline.kro.kr" },
+    { emoji:"🏘️", title:"마을 시스템", desc:"친구들과 함께 나만의 마을을 세우고 꾸며보세요.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/village-night.png", url:"https://roan-lark-42e.notion.site/28be0447afaa8080a849eec72b88f5d9" },
+  ];
 
   tiers = [
     { emoji:"🍭", name:"솜사탕 후원", price:"5,000원", color:"var(--pink-400)", popular:false, btnStyle:{},
