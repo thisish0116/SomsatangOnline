@@ -1,0 +1,30 @@
+{
+  "$schema": "file:///D:/SomsatangOnline/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "SomsatangOnline (Minecraft 26.3)",
+    "description": "SomsatangOnline Running Minecraft 26.3 (Fabric v0.20.1)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "somsatangonline.kro.kr:25565",
+    "discord": {
+      "shortId": "Somsatang Online",
+      "largeImageText": "솜사탕 온라인",
+      "largeImageKey": "main"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.20.1"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": [
+        "files"
+      ],
+      "patterns": [
+        "options.txt"
+      ]
+    }
+  ]
+}

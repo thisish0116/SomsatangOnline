@@ -1,7 +1,7 @@
 {
   "$schema": "file:///D:/SomsatangOnline/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "https://somsatangonline.kro.kr/rss.xml",
+    "rss": "http://somsatangonline.kro.kr/rss.xml",
     "discord": {
       "clientId": "1425933275691487384",
       "smallImageText": "솜사탕 온라인",
