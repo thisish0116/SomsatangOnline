@@ -6771,17 +6771,6 @@
           }
         },
         {
-          "id": "SomsatangOnline.zip",
-          "name": "SomsatangOnline.zip",
-          "type": "File",
-          "artifact": {
-            "size": 35378794,
-            "url": "https://thisish0116.github.io/SomsatangOnline/servers/SomsatangOnline-26.3/files/resourcepacks/SomsatangOnline.zip",
-            "MD5": "dac15ba713553f31606682a1a245743b",
-            "path": "resourcepacks/SomsatangOnline.zip"
-          }
-        },
-        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",
