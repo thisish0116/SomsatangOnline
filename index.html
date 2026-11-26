@@ -55,17 +55,37 @@
     </div>
   </div>
 
+  <!-- OPEN COUNTDOWN -->
+  <div id="countdown" data-screen-label="오픈 카운트다운" style="position:relative; overflow:hidden; padding:var(--space-12) var(--space-8) var(--space-12); text-align:center; background:linear-gradient(135deg, var(--pink-200) 0%, var(--yellow-100) 50%, var(--blue-200) 100%); border-bottom:3px solid var(--outline-toon); display:flex; flex-direction:column; align-items:center; gap:var(--space-4);">
+    <img src="assets/pixel/sparkle.png" alt="" aria-hidden="true" style="position:absolute; top:40px; left:10%; width:48px; height:48px; image-rendering:pixelated; animation:ss-twinkle 2.6s ease-in-out infinite;">
+    <img src="assets/pixel/lollipop.png" alt="" aria-hidden="true" style="position:absolute; bottom:50px; right:12%; width:48px; height:48px; image-rendering:pixelated; animation:ss-float 4s ease-in-out infinite .5s;">
+    <img src="assets/pixel/star.png" alt="" aria-hidden="true" style="position:absolute; top:70px; right:22%; width:32px; height:32px; image-rendering:pixelated; animation:ss-twinkle 2.2s ease-in-out infinite .9s;">
+    <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="yellow"><img src="assets/pixel/warning.png" alt="" style="width:16px; height:16px; image-rendering:pixelated; vertical-align:-3px; margin-right:4px;">서버 오픈 준비중</x-import>
+    <div style="font-family:var(--font-display); font-size:var(--text-xl); color:var(--ink-900);">정식 오픈까지</div>
+    <div aria-label="{{ ddayAria }}" style="font-family:var(--font-display); font-size:clamp(110px, 20vw, 240px); line-height:1; color:var(--white); letter-spacing:0.02em; text-shadow:5px 0 0 var(--outline-toon), -5px 0 0 var(--outline-toon), 0 5px 0 var(--outline-toon), 0 -5px 0 var(--outline-toon), 5px 5px 0 var(--outline-toon), -5px -5px 0 var(--outline-toon), 5px -5px 0 var(--outline-toon), -5px 5px 0 var(--outline-toon), 10px 12px 0 rgba(91,58,46,0.3); animation:ss-float 5s ease-in-out infinite;">{{ ddayLabel }}</div>
+    <div style="font-size:var(--text-lg); font-weight:var(--weight-bold); color:var(--ink-900);">{{ openDateLabel }} 정식 오픈 예정</div>
+    <div style="display:flex; gap:var(--space-3); flex-wrap:wrap; justify-content:center; margin-top:var(--space-2);">
+      <sc-for list="{{ countdownUnits }}" as="u" hint-placeholder-count="4">
+        <div style="min-width:88px; background:var(--white); border:3px solid var(--outline-toon); border-radius:var(--radius-md); box-shadow:4px 4px 0 var(--outline-toon); padding:var(--space-3) var(--space-4); display:flex; flex-direction:column; align-items:center; gap:var(--space-1);">
+          <div style="font-family:var(--font-display); font-size:var(--text-2xl); color:var(--ink-900); line-height:1;">{{ u.v }}</div>
+          <div style="font-size:var(--text-xs); font-weight:var(--weight-bold); color:var(--brown-500);">{{ u.l }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
   <!-- HERO -->
   <div id="hero" data-screen-label="메인 홍보" style="position:relative; padding:var(--space-16) var(--space-8) var(--space-20); display:flex; align-items:center; gap:var(--space-16); flex-wrap:wrap; justify-content:center; overflow:hidden; background:linear-gradient(180deg, var(--blue-100) 0%, var(--surface-page) 70%);">
     <canvas ref="{{ cloudCanvasRef }}" style="position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none;"></canvas>
-    <span style="position:absolute; z-index:1; top:60px; left:8%; font-size:28px; animation:ss-twinkle 2.4s ease-in-out infinite;">✨</span>
-    <span style="position:absolute; z-index:1; top:140px; right:14%; font-size:22px; animation:ss-twinkle 3.1s ease-in-out infinite .4s;">✨</span>
-    <span style="position:absolute; z-index:1; bottom:80px; left:20%; font-size:18px; animation:ss-twinkle 2.7s ease-in-out infinite .8s;">⭐</span>
+    <img src="assets/pixel/sparkle.png" alt="" aria-hidden="true" style="position:absolute; z-index:1; top:60px; left:8%; width:40px; height:40px; image-rendering:pixelated; animation:ss-twinkle 2.4s ease-in-out infinite;">
+    <img src="assets/pixel/heart.png" alt="" aria-hidden="true" style="position:absolute; z-index:1; top:140px; right:14%; width:32px; height:32px; image-rendering:pixelated; animation:ss-float 4.5s ease-in-out infinite .4s;">
+    <img src="assets/pixel/star.png" alt="" aria-hidden="true" style="position:absolute; z-index:1; bottom:80px; left:20%; width:32px; height:32px; image-rendering:pixelated; animation:ss-twinkle 2.7s ease-in-out infinite .8s;">
 
     <div style="position:relative; z-index:1; flex:1 1 420px; max-width:520px; display:flex; flex-direction:column; gap:var(--space-5);">
       <div style="display:flex; gap:var(--space-2); flex-wrap:wrap;">
-        <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="blue">1.21.4 ~ 최신 지원</x-import>
+        <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="blue">마인크래프트 26.3 (최신 버전)</x-import>
         <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="pink">자바 에디션</x-import>
+        <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="yellow">12월 오픈 예정</x-import>
       </div>
       <h1 style="font-family:var(--font-display); font-size:var(--text-4xl); line-height:var(--leading-tight); color:var(--pink-600); margin:0; text-shadow:2px 2px 0 var(--outline-toon); white-space:pre-line;">{{ heroTitle }}</h1>
       <p style="font-size:var(--text-md); line-height:var(--leading-normal); color:var(--text-muted); margin:0;">{{ heroDesc }}</p>
@@ -89,7 +109,7 @@
   <!-- SPONSOR -->
   <div id="contents" data-screen-label="게임 컨텐츠 안내" style="{{ revealStyle_contents }}">
     <div style="text-align:center; margin-bottom:var(--space-12);">
-      <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="green">GAME CONTENTS</x-import>
+      <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Badge" hint-size="auto,24px" color="{{ contentsBadgeColor }}">GAME CONTENTS</x-import>
       <h2 style="font-family:var(--font-display); font-size:var(--text-3xl); color:var(--ink-900); margin:var(--space-3) 0 var(--space-2);">수많은 컨텐츠가 기다리고 있어요</h2>
       <p style="color:var(--text-muted); font-size:var(--text-md); margin:0;">건축부터 던전까지, 솜사탕 온라인만의 특별한 시스템 12가지</p>
     </div>
@@ -100,7 +120,7 @@
             <img src="{{ f.imgSrc }}" alt="{{ f.title }}" style="object-fit:cover; display:block; width:100%; height:218px;">
           </div>
           <div style="padding:var(--space-5); display:flex; flex-direction:column; gap:var(--space-3);">
-            <div style="width:48px; height:48px; border-radius:var(--radius-pill); background:{{ f.bg }}; display:flex; align-items:center; justify-content:center; font-size:24px; border:2px solid var(--outline-toon);">{{ f.emoji }}</div>
+            <div style="width:48px; height:48px; border-radius:var(--radius-pill); background:{{ f.bg }}; display:flex; align-items:center; justify-content:center; border:2px solid var(--outline-toon);"><img src="{{ f.icon }}" alt="" style="width:32px; height:32px; image-rendering:pixelated; display:block;"></div>
             <div style="font-weight:var(--weight-bold); font-size:var(--text-md); color:var(--ink-900);">{{ f.title }}</div>
             <div style="font-size:var(--text-sm); color:var(--text-muted); line-height:var(--leading-normal);">{{ f.desc }}</div>
           </div>
@@ -120,7 +140,7 @@
           <sc-if value="{{ t.popular }}" hint-placeholder-val="{{ false }}">
             
           </sc-if>
-          <div style="font-size:32px;">{{ t.emoji }}</div>
+          <img src="{{ t.icon }}" alt="" style="width:48px; height:48px; image-rendering:pixelated; display:block;">
           <div style="font-family:var(--font-display); font-size:var(--text-xl); color:{{ t.color }};">{{ t.name }}</div>
           <div style="font-size:var(--text-lg); font-weight:var(--weight-bold); color:var(--ink-900);">{{ t.price }}</div>
           <div style="display:flex; flex-direction:column; gap:var(--space-2); flex:1;">
@@ -138,7 +158,7 @@
     <x-import component-from-global-scope="SomsatangOnlineDesignSystem_20ac9a.Dialog" hint-size="360px,440px" open="{{ qrTier }}" onClose="{{ closeQr }}" title="{{ qrDialogTitle }}">
       <div style="display:flex; flex-direction:column; align-items:center; gap:var(--space-3); padding:var(--space-2) 0;">
         <img src="{{ qrDialogSrc }}" alt="후원 QR" style="width:260px; height:325px; object-fit:contain; border-radius:var(--radius-md); border:2px solid var(--border-default);">
-        <p style="font-size:var(--text-sm); color:var(--text-muted); margin:0; text-align:center;">QR을 스캔해 결제를 완료해주세요.<br>후원해주셔서 감사해요! 🍬</p>
+        <p style="font-size:var(--text-sm); color:var(--text-muted); margin:0; text-align:center;">QR을 스캔해 결제를 완료해주세요.<br>후원해주셔서 감사해요! <img src="assets/pixel/cotton-candy.png" alt="" style="width:16px; height:16px; image-rendering:pixelated; vertical-align:-3px;"></p>
       </div>
     </x-import>
 
@@ -197,7 +217,7 @@
       </div>
 
       <div style="background:var(--surface-card); border:2px solid var(--border-default); border-radius:var(--radius-lg); box-shadow:var(--shadow-md); padding:var(--space-6); display:flex; flex-direction:column; gap:var(--space-3);">
-        <div style="font-family:var(--font-display); font-size:var(--text-lg); color:var(--pink-600);">서버 규칙 📜</div>
+        <div style="font-family:var(--font-display); font-size:var(--text-lg); color:var(--pink-600); display:flex; align-items:center; gap:var(--space-2);"><img src="assets/pixel/scroll.png" alt="" style="width:24px; height:24px; image-rendering:pixelated;">서버 규칙</div>
         <sc-for list="{{ rules }}" as="r" hint-placeholder-count="6">
           <div style="display:flex; gap:var(--space-2); font-size:var(--text-sm); color:var(--text-body); line-height:var(--leading-normal);">
             <span style="color:var(--pink-500); font-weight:var(--weight-bold);">{{ r.n }}.</span>{{ r.text }}
@@ -218,15 +238,40 @@
       <a href="#notice" style="color:var(--cream-100); text-decoration:none; font-size:var(--text-sm); font-weight:var(--weight-bold);">공지</a>
       <a href="{{ discordUrl }}" style="color:var(--blue-300); text-decoration:none; font-size:var(--text-sm); font-weight:var(--weight-bold);">디스코드</a>
     </div>
-    <div style="color:var(--text-muted); font-size:var(--text-xs); text-align:center;">somsatangonline.kro.kr · © 2026 솜사탕 온라인. 오늘도 달콤한 하루 보내세요 🍬</div>
+    <div style="color:var(--text-muted); font-size:var(--text-xs); text-align:center;">somsatangonline.kro.kr · © 2026 솜사탕 온라인. 오늘도 달콤한 하루 보내세요 <img src="assets/pixel/cotton-candy.png" alt="" style="width:16px; height:16px; image-rendering:pixelated; vertical-align:-3px;"></div>
   </div>
 
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;primaryColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#f3bef1&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;bgColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#fff8f0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;buttonColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#fbd0d0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;cardRadius&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:10,&quot;min&quot;:0,&quot;max&quot;:40,&quot;step&quot;:2,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;shadowIntensity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:15,&quot;min&quot;:0,&quot;max&quot;:60,&quot;step&quot;:5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;fontScale&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:95,&quot;min&quot;:80,&quot;max&quot;:130,&quot;step&quot;:5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;bannerImage&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;assets/game/spawn.png&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;heroTitle&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;솜사탕처럼\n달콤한 서버,\n솜사탕 온라인&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;heroDesc&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;경제·성장·모험이 가득한 마인크래프트 서버예요. 지금 접속해서 나만의 마을을 꾸리고, 던전을 정복하고, 친구들과 함께해요!&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;colorTheme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;개선안&quot;,&quot;기존&quot;],&quot;default&quot;:&quot;개선안&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;primaryColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#f3bef1&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;bgColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#fff8f0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;buttonColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#fbd0d0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;테마&quot;},&quot;cardRadius&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:10,&quot;min&quot;:0,&quot;max&quot;:40,&quot;step&quot;:2,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;shadowIntensity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:15,&quot;min&quot;:0,&quot;max&quot;:60,&quot;step&quot;:5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;fontScale&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:95,&quot;min&quot;:80,&quot;max&quot;:130,&quot;step&quot;:5,&quot;unit&quot;:&quot;%&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;레이아웃&quot;},&quot;openDate&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;2026-12-25&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;bannerImage&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;assets/game/spawn.png&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;heroTitle&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;솜사탕처럼\n달콤한 서버,\n솜사탕 온라인&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;},&quot;heroDesc&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;경제·성장·모험이 가득한 마인크래프트 서버가 12월 정식 오픈을 준비하고 있어요. 나만의 마을, 던전 정복, 친구들과의 모험이 곧 시작돼요!&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;콘텐츠&quot;}}">
 class Component extends DCLogic {
-  state = { copied: false, revealed: {}, notices: null, qrTier: null, expandedNotice: null };
+  state = { copied: false, revealed: {}, notices: null, qrTier: null, expandedNotice: null, now: Date.now() };
+
+  countdownVals() {
+    const raw = String(this.props.openDate || "2026-12-25").trim();
+    const openAt = new Date(raw + "T00:00:00+09:00");
+    const valid = !isNaN(openAt.getTime());
+    const diff = valid ? Math.max(0, openAt.getTime() - this.state.now) : 0;
+    const dayN = Math.ceil(diff / 86400000);
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor(diff / 3600000) % 24;
+    const mins = Math.floor(diff / 60000) % 60;
+    const secs = Math.floor(diff / 1000) % 60;
+    const pad = (n) => String(n).padStart(2, "0");
+    const [y, mo, d] = raw.split("-").map(Number);
+    return {
+      ddayLabel: !valid ? "D-?" : dayN > 0 ? `D-${dayN}` : "D-DAY",
+      ddayAria: !valid ? "오픈일 미정" : dayN > 0 ? `정식 오픈까지 ${dayN}일` : "오늘 정식 오픈",
+      openDateLabel: valid ? `${y}년 ${mo}월 ${d}일` : "12월 중",
+      countdownUnits: [
+        { v: days, l: "일" },
+        { v: pad(hours), l: "시간" },
+        { v: pad(mins), l: "분" },
+        { v: pad(secs), l: "초" },
+      ],
+    };
+  }
 
   features = [
     { emoji:"🧱", title:"개인 건설 차단", desc:"내 땅은 안전하게! 원치 않는 건설과 파괴를 막아주는 개인 보호 시스템.", bg:"var(--pink-100)", imgDisplay:"block", imgSrc:"assets/game/build-protect.png", url:"https://roan-lark-42e.notion.site/28be0447afaa801b82a5f10b8a252ba4" },
@@ -249,7 +294,7 @@ class Component extends DCLogic {
     { emoji:"🧁", name:"마카롱 후원", price:"15,000원", color:"var(--blue-400)", popular:true, btnStyle:{ background:"var(--brand-secondary)" }, qr:"assets/qr_15000.jpg",
       perks:["전용 칭호 지급","컬러 닉네임 적용","매일 후원 코인 2개","치장 아이템 3종"] },
     { emoji:"🌈", name:"레인보우 후원", price:"30,000원", color:"var(--yellow-500)", popular:false, btnStyle:{ background:"var(--yellow-400)", color:"var(--ink-900)" }, qr:"assets/qr_30000.jpg",
-      perks:["전용 칭호 지급","컬러 닉네임 적용","매일 후원 코인 3개","치장 아이템 5종","신규 기능 QA 기능"] },
+      perks:["전용 칭호 지급","컬러 닉네임 적용","매일 후원 코인 3개","치장 아이템 5종","개인 특별 잔상 제공"] },
   ];
 
   coinPacks = [
@@ -282,7 +327,10 @@ class Component extends DCLogic {
 
   discordUrl = "https://discord.com/invite/MZn8cZUvm4";
 
+  featureIcons = ["lock", "coin", "phone", "anvil", "enchanted-book", "wheat", "fishing-rod", "frying-pan", "dragon", "magic-staff", "quest", "house"];
+
   componentDidMount() {
+    this.clockTimer = setInterval(() => this.setState({ now: Date.now() }), 1000);
     this.fetchNotices();
     this.initCloudCanvas();
     this.observer = new IntersectionObserver((entries) => {
@@ -328,6 +376,7 @@ class Component extends DCLogic {
   }
 
   componentWillUnmount() {
+    if (this.clockTimer) clearInterval(this.clockTimer);
     if (this.observer) this.observer.disconnect();
     if (this.cloudCleanup) this.cloudCleanup();
   }
@@ -503,11 +552,21 @@ class Component extends DCLogic {
       fontSize: `${fontScale}%`,
     };
     if (this.props.bgColor) { rootStyle.background = this.props.bgColor; rootStyle["--surface-page"] = this.props.bgColor; }
-    if (this.props.primaryColor) { rootStyle["--pink-600"] = this.props.primaryColor; rootStyle["--pink-500"] = this.props.primaryColor; }
-    if (this.props.buttonColor) { rootStyle["--brand-primary"] = this.props.buttonColor; }
+    const improved = (this.props.colorTheme ?? "개선안") !== "기존";
+    if (improved) {
+      // 개선안: 로고 핑크 계열로 통일 + 글자 대비 확보
+      rootStyle["--pink-600"] = "#E58BBC";
+      rootStyle["--brand-primary"] = "#E58BBC";
+      rootStyle["--brand-primary-hover"] = "#DB74AD";
+      rootStyle["--brand-primary-active"] = "#CF5F9D";
+      rootStyle["--text-muted"] = "#75656B";
+    } else {
+      if (this.props.primaryColor) { rootStyle["--pink-600"] = this.props.primaryColor; rootStyle["--pink-500"] = this.props.primaryColor; }
+      if (this.props.buttonColor) { rootStyle["--brand-primary"] = this.props.buttonColor; }
+    }
     return {
       rootStyle,
-      copyLabel: this.state.copied ? "복사완료! ✅" : "서버 IP 복사",
+      copyLabel: this.state.copied ? "복사 완료!" : "서버 IP 복사",
       copyIp: () => {
         navigator.clipboard?.writeText("somsatangonline.kro.kr").catch(() => {});
         this.setState({ copied: true });
@@ -515,8 +574,9 @@ class Component extends DCLogic {
       },
       openDiscord: () => window.open(this.discordUrl, "_blank"),
       discordUrl: this.discordUrl,
-      features: this.features,
-      tiers: this.tiers.map(t => ({ ...t, openQr: () => this.setState({ qrTier: t }) })),
+      features: this.features.map((f, i) => ({ ...f, icon: "assets/pixel/" + this.featureIcons[i] + ".png", ...(improved ? { bg: i % 2 ? "var(--blue-100)" : "var(--pink-100)" } : {}) })),
+      contentsBadgeColor: improved ? "blue" : "green",
+      tiers: this.tiers.map((t, i) => ({ ...t, icon: "assets/pixel/" + ["cotton-candy", "macaron", "rainbow"][i] + ".png", openQr: () => this.setState({ qrTier: t }) })),
       coinPacks: this.coinPacks,
       notices: (this.state.notices ?? this.notices).map((n, i) => ({
         ...n,
@@ -533,7 +593,8 @@ class Component extends DCLogic {
       featureHoverStyle: { transform: "translateY(-6px)", boxShadow: `0 12px 24px rgba(139,90,74,${shadowAlpha * 0.9})` },
       cloudCanvasRef: (el) => { this.cloudCanvasRef = el; },
       heroTitle: this.props.heroTitle ?? "솜사탕처럼\n달콤한 서버,\n솜사탕 온라인",
-      heroDesc: this.props.heroDesc ?? "경제·성장·모험이 가득한 마인크래프트 서버예요. 지금 접속해서 나만의 마을을 꾸리고, 던전을 정복하고, 친구들과 함께해요!",
+      heroDesc: this.props.heroDesc ?? "경제·성장·모험이 가득한 마인크래프트 서버가 12월 정식 오픈을 준비하고 있어요. 나만의 마을, 던전 정복, 친구들과의 모험이 곧 시작돼요!",
+      ...this.countdownVals(),
       bannerImage: this.props.bannerImage ?? "assets/game/spawn.png",
       closeQr: () => this.setState({ qrTier: null }),
       qrTier: !!this.state.qrTier,
